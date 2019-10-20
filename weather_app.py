@@ -8,11 +8,8 @@ width = 500
 def test_function(entry):
     print("This is the entry:", entry)
 
-    # key = '291e30b00a205f800be906dfd2b678ab'
-    # api.openweathermap.org/data/2.5/forecast?q={city name},{country code}
-
 def get_weather(city):
-    weather_key = '291e30b00a205f800be906dfd2b678ab'
+    weather_key = 'XXXXX'
     url = 'https://api.openweathermap.org/data/2.5/weather'
     params = {'APPID': weather_key,
               'q': city,
